@@ -5,11 +5,13 @@ public class PascalTriangle {
 	public static void main(String[] args) {
 		
 		int[][] result = solve(22);
+		
 		for(int i = 0;i<result.length;i++) {
 			for(int j=0;j<result.length;j++) {
 				System.out.print(result[i][j]);
 				System.out.print(" ");
 			}
+			
 			System.out.println();
 		}
 
